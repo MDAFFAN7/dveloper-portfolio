@@ -8,8 +8,9 @@ body{
 #name{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 130px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +30,54 @@ section{
 .top-pic{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+#Fontsize{
+    font-size: 2ch;
+}
+#size{
+    font-size: 0.5cm;
+}
+#small-size{
+    font-size: 0.4cm;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(red,tomato);
+    padding:10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.4cm;
+}
+.middle-pic{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.big2{
+    font-size: 4ch;
+}
+.shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px black;
+}
+h2{
+    font-size: 0.8cm;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.left-border1{
+    border-left: solid red 10px;
+}
+.left-border2{
+    border-left: solid blue 10px;
+}
+footer p{
+    text-align: center;
 }
